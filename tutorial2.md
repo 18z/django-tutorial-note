@@ -1,7 +1,7 @@
 Python Django tutorial 2
 
 * 設定database、時區與語系、installed_apps
-	
+
 		vim settings.py
 
 * 建立app
