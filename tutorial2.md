@@ -37,7 +37,7 @@ Python Django tutorial 2
 python manage.py shell
 		
 		>> from article.models import Article (press enter)
-		>> article.object.all()
+		>> Article.objects.all()
 		[]
 		>> from django.utils import timezone (pe)
 		>> a = Article(title="test 1", body="blah", pub_date=timezone.now(), likes=0) (pe)
@@ -48,7 +48,7 @@ python manage.py shell
 		>> a.id
 		>> a = Article(title="test 3", body="blah", pub_date=timezone.now(), likes=0) (pe)
 		>> a.save() (pe)
-		>> article.object.all()
+		>> Article.objects.all()
 		>> 
 
 vim models.py
